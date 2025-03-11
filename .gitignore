@@ -1,0 +1,40 @@
+# 🔹 .NET-related files
+bin/
+obj/
+*.user
+*.suo
+*.vs
+.vscode/
+*.db
+*.dll
+*.exe
+*.pdb
+*.log
+*.DS_Store
+*.bak
+*.nupkg
+*.lock.json
+
+# 🔹 Terraform-related files
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+crash.log
+
+# 🔹 Bicep-related files
+*.bicep.cache
+bicepconfig.json
+
+# 🔹 Docker-related files
+*.dockerignore
+docker-compose.override.yml
+
+# 🔹 Secrets & Configs
+.env
+secrets.json
+azureauth.json
+
+# 🔹 Kubernetes-related
+*.kubeconfig
+k8s-secrets.yaml
